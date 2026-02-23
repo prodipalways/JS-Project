@@ -1,27 +1,26 @@
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: lightblue;
+}
+body{
+    background: aqua;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.form-box{
-background: white;
-padding: 30px;
-width: 350px;
-border-radius: 15px;
-box-shadow: 0 10px 25px gray;
+.container{
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 12px 25px gray;
 }
-
-.form-box h2{
+.container h2{
     text-align: center;
     margin-bottom: 20px;
 }
-
 label{
     display: block;
     margin-top: 10px;
@@ -41,13 +40,13 @@ input:focus{
 button{
     width: 100%;
     padding: 12px;
+    margin-top: 15px;
     border: none;
+    background: linear-gradient(to right, purple, blue);
     border-radius: 8px;
-    background: linear-gradient(to right, purple,blue);
     color: white;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 10px;
 }
 button:hover{
     opacity: 0.9;
