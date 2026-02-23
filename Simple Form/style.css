@@ -31,9 +31,9 @@ label{
 input{
     width: 100%;
     padding: 12px;
-    border-radius: 8px;
     box-sizing: border-box;
-    border: 1px solid gray
+    border-radius: 8px;
+    border: 1px solid gray;
 }
 input:focus{
     border: 2px solid red;
